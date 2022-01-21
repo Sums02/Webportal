@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  overflow-x:hidden;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main{
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navigation{
+  width:100%;
+  height:130px;
+  display:flex;
+  position: fixed;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+}
+
+.logo{
+  width: 10%;
+  height:93px;
+  position: fixed;
+}
+
+ul{
+  position: fixed;
+  display:flex;
+  padding-left: 10%;
+  padding-top: 2%;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+  margin-right: 20px;
+}
+
+/*W3schools*/
+a:link {
+  color: #d51726;
+  text-decoration: none;
+}
+
+/* W3 schools */
+a:visited {
+  color: #9c111c;
+  text-decoration: none;
+}
+
+.notification {
+  width:10%;
+  height:15%;
+  top:3%;
+  left: 60%;
+  position: fixed;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 1px;
+  right: 40px;
+  padding: 3px 7px;
+  border-radius: 50%;
+  background: #d51726;
+  color: white;
+}
+
+.notif{
+  width:50%;
+  height:65%;
+}
+
+.dm{
+  top:4%;
+  left:70%;
+  position: fixed;
+  width:5%;
+  height:10%;
+}
+
+input[type=search]{
+  position: fixed;
+  top:7%;
+  left:80%;
+  width:10%;
+  height:5%;
+}
+
+
+.home1{
+  width:70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 10px 10px 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  float: left;
+}
+
+.home1_profile{
+  background-image: url('../images/profile.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+  padding: 100px 100px;
+
+}
+
+.home1_messages{
+  background-image: url('../images/messages.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+  padding: 100px 100px;
+}
+
+.home1 > div{
+  height: 300px;
+  width: 40%;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.home2{
+  width:70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 10px 10px 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  float: left;
+}
+
+.home2_careeradvice{
+  background-image: url('../images/career.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+  padding: 100px 100px;
+
+}
+
+.home2_cv{
+  background-image: url('../images/cv.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+  padding: 100px 100px;
+}
+
+.home2 > div{
+  height: 300px;
+  width: 40%;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.careerheading{
+  width:100%;
+  height:150px;
+  background-color: #ebebeb;
+  margin:15px;
+  color: #5b5b5b;
+}
+
+.career1{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 10px 10px 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.career1_link1{
+  background-image: url('../images/cvlink.jpeg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+
+}
+
+.career1_link2{
+  background-image: url('../images/interview.jpeg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+  padding: 100px;
+}
+
+.career1_link3{
+  background-image: url('../images/bestcareer.png');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+  padding: 100px;
+
+}
+
+.career1 > div{
+  height: 300px;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.career2{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.career2_link1{
+  background-color: #b8b8b8;
+  font-size: 15px;
+  color: #4c4b45;
+
+}
+
+.career2_link2{
+  background-color: #b8b8b8;
+  font-size: 15px;
+  color: #4c4b45;
+}
+
+.career2_link3{
+  background-color: #b8b8b8;
+  font-size: 15px;
+  color: #4c4b45;
+
+}
+
+.career2 > div{
+  height: 150px;
+  width: 30%;
+}
+
+.footer_1{
+  background-color: #a22833;
+  height:200px;
+  width:100%;
+  position: relative;
+  bottom:1%;
+  color: #dd767f;
+  padding-top: 12%;
+  padding-left: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3{
+  text-decoration: underline;
+}
+
+.career3{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 10px 10px 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.career3_link1{
+  background-image: url('../images/cvtemplates.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #4c4b45;
+}
+
+.career3 > div{
+  height: 300px;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.career4{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.career4_link1{
+  background-color: #b8b8b8;
+  font-size: 15px;
+  color: #4c4b45;
+}
+
+.career4 > div{
+  height: 150px;
+  width: 30%;
+}
+
+.h2{
+  text-decoration: underline;
+  padding-left: 40%;
+}
+
+.cvheader{
+  width:100%;
+  height:150px;
+  background-color: #ebebeb;
+  color: #5b5b5b;
+}
+
+.upload{
+  width:99%;
+  height:50%;
+  border: 5px solid ;
+  border-color: #d51726;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  font-size: 25px;
+
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ebebeb;
+  color: #5b5b5b;
+  font-size: 15px;
+}
+
+input[type=submit], input[type=file]{
+  background-color: #ebebeb;
+  border: solid #5b5b5b;
+  color: #5b5b5b;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 3px 1px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+textarea{
+  width:70%;
+  height:100px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.registration{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 5px 5px 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.registation_signup{
+  width: 100%;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ebebeb;
+  color: #5b5b5b;
+  font-size: 15px;
+}
+
+.registation_signin{
+  width: 100%;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ebebeb;
+  color: #5b5b5b;
+  font-size: 15px;
+}
+
+.registration > div{
+  height: 50%;
+  width: 45%;
+  padding-left: 3%;
+  padding-right: 10%;
+}
+
+input[type=text], input[type=password], input[type=email]{
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
